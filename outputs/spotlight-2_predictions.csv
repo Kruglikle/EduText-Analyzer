@@ -1,0 +1,1251 @@
+exercise_id,page,section,prompt,label,confidence,review
+1,5,Module 5,"1 Спой песенку.
+Hello, hello, everyone,
+I'm Nanny Shine, hello!
+Come in and get ready,
+Come on, everyone - let's go!
+My name is Nanny Shine.
+Tell me. What's your name?
+My name is Nanny Shine.",языковое,0.8277,False
+2,5,Module 5,"2 Поговори со своим одноклассником, используя образец.
+Hello, I m Nanny Shine. What s your name?
+Hello, I m Anna",коммуникативное,0.7746,False
+3,6,Module 5,"3 Hello или Goodbye? Посмотри на картинки и скажи.
+1
+2",коммуникативное,0.5207,True
+4,6,Module 5,"4 Поприветствуй одноклассников, как показано в образце.
+Hello, Anna. How are you?
+Fine, thanks!",коммуникативное,0.6011,False
+5,7,Module 5,"1 Слушай и повторяй за диктором.
+a ant
+b bed
+c cat
+d dog
+e egg
+f flag
+g glass",языковое,0.8909,False
+6,7,Module 5,2 Спой песенку.,языковое,0.8277,False
+7,8,Module 5,3 Посмотри на картинки и напиши первую букву в своей тетради.,языковое,0.6238,False
+8,8,Module 5,1 _ orse,языковое,0.5126,True
+9,8,Module 5,2 _ at,языковое,0.5126,True
+10,8,Module 5,3 _ nt,языковое,0.5126,True
+11,8,Module 5,4 _ gg,языковое,0.5126,True
+12,8,Module 5,5 _ lass,языковое,0.5126,True
+13,8,Module 5,6 _ lag,языковое,0.5126,True
+14,8,Module 5,7 _ og,языковое,0.5126,True
+15,8,Module 5,8 _ ed,языковое,0.5126,True
+16,9,Module 5,"1 Слушай и повторяй за диктором.
+i ink
+j jug
+k kangaroo
+l lamp
+m mouse
+n nest
+o orange",языковое,0.8909,False
+17,9,Module 5,2 Спой песенку.,языковое,0.8277,False
+18,10,Module 5,3 Посмотри на картинку и прочти нужное слово.,языковое,0.6356,False
+19,10,Module 5,"Напиши его в своей тетради.
+1
+a queen
+b pin
+2
+a dog
+b kangaroo
+3",языковое,0.6004,False
+20,11,Module 5,"1 Слушай и повторяй за диктором.
+r rabbit
+s snake
+t tree
+u umbrella
+v vest
+w window
+x box",языковое,0.8909,False
+21,11,Module 5,2 Спой песенку.,языковое,0.8277,False
+22,12,Module 5,"3 Перепиши слова в тетрадь, вставляя пропущенные буквы.
+1
+w _ _ d _ w
+2
+_ e _ t
+3
+_ m _ _ e _ la
+4",языковое,0.7173,False
+23,12,Module 5,"4 Прочитай слова и выбери правильный ответ.
+1
+a horse
+b snake
+c kangaroo
+2
+a box
+b yacht",языковое,0.5919,True
+24,13,Module 5,"1 Слушай и повторяй за диктором.
+sh sheep fish ship",языковое,0.8909,False
+25,13,Module 5,"2 Перепиши слова в тетрадь,
+вставляя пропущенные буквы.",языковое,0.7173,False
+26,13,Module 5,1 s _ a __,языковое,0.5126,True
+27,13,Module 5,2 __ rs _,языковое,0.5126,True
+28,13,Module 5,3 e __,языковое,0.5126,True
+29,13,Module 5,4 __ __ n,языковое,0.5126,True
+30,13,Module 5,"5 ____
+12",языковое,0.5126,True
+31,14,Module 5,"3 Слушай и повторяй за диктором.
+ch
+chick
+cheese",языковое,0.8909,False
+32,14,Module 5,"4 Какие картинки лишние?
+ch
+sh",языковое,0.5157,True
+33,15,Module 5,"1 Слушай и повторяй за диктором.
+th
+the, this
+thumb
+thimble",языковое,0.8909,False
+34,15,Module 5,"2 Составь слова и напиши их в тетради.
+1
+t b h m u
+2
+t e i l h m b",языковое,0.6404,False
+35,16,Module 5,"3 Слушай и повторяй за диктором.
+ph
+photo dolphin elephant",языковое,0.8909,False
+36,16,Module 5,"4 f или ph? Перепиши слова в тетрадь, вставляя пропущенные буквы.",языковое,0.7249,False
+37,16,Module 5,1 fish,языковое,0.5126,True
+38,16,Module 5,2 dol _ _ in,языковое,0.5126,True
+39,16,Module 5,3 _ lag,языковое,0.5126,True
+40,16,Module 5,4 ele _ _ ant,языковое,0.5126,True
+41,17,Module 5,"1 Слушай и повторяй за диктором.
+A a
+B b
+C c
+D d
+E e
+F f
+G g",языковое,0.8909,False
+42,18,Module 5,"2 Подбери нужные слова к картинкам и перепиши их в тетрадь.
+cat
+lamp
+horse
+pin
+jug
+rabbit
+orange",языковое,0.6790,False
+43,18,Module 5,1 cat CAT,языковое,0.5126,True
+44,18,Module 5,2 horse HORSE,языковое,0.5126,True
+45,18,Module 5,3 jug JUG,языковое,0.5126,True
+46,18,Module 5,4 lamp LAMP,языковое,0.5126,True
+47,18,Module 5,5 orange ORANGE,языковое,0.5126,True
+48,18,Module 5,6 pin PIN,языковое,0.5126,True
+49,18,Module 5,7 rabbit RABBIT,языковое,0.5126,True
+50,18,Module 5,8 window WINDOW,языковое,0.5126,True
+51,18,Module 5,"3 Спой песенку, сопровождая её движениями.
+A B C D E F G H I J K L M,
+I can sing the alphabet,
+Can you do the same?
+I can sing the alphabet,
+I've got it in my head!
+N O P Q R S T U V W X Y Z!",языковое,0.8758,False
+52,19,Module 5,"1 Слушай и повторяй за диктором.
+Larry
+Lulu
+Chuckles
+Nanny Shine",языковое,0.8909,False
+53,19,Module 5,"2 Поговори со своим одноклассником, используя образец.
+I'm Larry! This is my sister Lulu.
+Hello, Larry! Hello, Lulu!",коммуникативное,0.7746,False
+54,21,Module 5,1 Прослушай диалог и прочитай его.,языковое,0.7937,False
+55,21,Module 5,"1 Punch & Judy: Hello, children!
+Punch: Hello, I m Punch and this is my friend Judy.
+Larry & Lulu: Hello, Punch. Hello, Judy!",языковое,0.5126,True
+56,21,Module 5,"2 Nanny: Hello, I m Nanny Shine!
+Punch: Hello, Nanny Shine!",языковое,0.5126,True
+57,21,Module 5,"3 Larry: Hello, I m Larry and this is my sister Lulu!
+Lulu: Hello!
+Punch & Judy: Hello, Larry! Hello, Lulu!",языковое,0.5126,True
+58,22,Module 5,"2 Спой песенку, сопровождая её движениями.
+stand up
+sit down
+Stand up, sit down,
+Keep moving!
+Stand up, sit down,
+Keep moving!
+Stand up, sit down,",языковое,0.8758,False
+59,23,Module 5,"1 Слушай и повторяй за диктором.
+mummy daddy grandma grandpa",языковое,0.8909,False
+60,23,Module 5,"2 Поговори со своим одноклассником, используя образец.
+This is my brother.
+brother daddy
+mummy grandma grandpa",коммуникативное,0.7746,False
+61,24,Module 5,Прослушай диалог и прочитай его.,языковое,0.7937,False
+62,24,Module 5,"1 Lulu: Hello, Mummy!
+Larry: Hello, Daddy!",языковое,0.5126,True
+63,24,Module 5,"2 Mummy: Larry, Lulu, close your eyes!
+Larry & Lulu: OK.
+Daddy: Open your eyes now!",языковое,0.5126,True
+64,24,Module 5,"3 Grandma & Grandpa: Hello, Larry! Hello, Lulu!
+Larry: Grandma! Grandpa!
+Lulu: Nanny! This is Grandma and this is Grandpa!",языковое,0.5126,True
+65,25,Module 5,"1 Слушай и повторяй за диктором.
+Colours
+red
+yellow
+green
+white
+blue",языковое,0.8909,False
+66,25,Module 5,2 Перерисуй картинки в тетрадь и раскрась их.,языковое,0.6669,False
+67,25,Module 5,1 a yellow snake,языковое,0.5126,True
+68,25,Module 5,2 a red window,языковое,0.5126,True
+69,25,Module 5,3 a blue vest,языковое,0.5126,True
+70,25,Module 5,4 a white egg,языковое,0.5126,True
+71,25,Module 5,5 a green tree,языковое,0.5126,True
+72,27,Module 5,1 My Home!,языковое,0.5126,True
+73,27,Module 5,"1 Слушай и повторяй за диктором.
+tree house
+chair
+table
+radio
+bed",языковое,0.8909,False
+74,27,Module 5,"2 Поговори со своим одноклассником, используя образец.
+What's this?
+It's a radio!",коммуникативное,0.7746,False
+75,28,Module 5,Прослушай диалог и прочитай его.,языковое,0.7937,False
+76,28,Module 5,"1 Lulu: Grandma, Grandpa, look at our tree house!
+Grandpa: Oh, a red chair!
+Grandma: That s nice!",языковое,0.5126,True
+77,28,Module 5,"2 Larry: Look, Grandma! A yellow table!
+Grandma: Oh, yes! It s lovely!",языковое,0.5126,True
+78,28,Module 5,"3 Grandpa: What s this, Larry?
+Larry: It s a radio, Grandpa! Listen!",языковое,0.5126,True
+79,28,Module 5,Прочитай диалог ещё раз,коммуникативное,0.5068,True
+80,28,Module 5,"и выбери правильный ответ.
+a Oh, a red chair!
+b Oh, a blue chair!",коммуникативное,0.5957,True
+81,29,Module 5,"1 Угадай, что изображено на картинках, и скажи, используя образец.",коммуникативное,0.7144,False
+82,29,Module 5,1 It's a ...,языковое,0.5126,True
+83,29,Module 5,"2 Посмотри на картинку, прочитай слова и выбери правильный ответ.
+tree
+table
+chair
+cheese
+radio
+rabbit
+bed",языковое,0.6600,False
+84,29,Module 5,28 Module 1,языковое,0.5126,True
+85,31,Module 1,"1 Слушай и повторяй за диктором.
+garden
+bedroom
+black/brown
+kitchen
+house",языковое,0.8909,False
+86,31,Module 1,"2 Поговори со своим одноклассником, используя образец.
+Where's Mummy?
+In the kitchen.",коммуникативное,0.7746,False
+87,33,Module 1,1 Прослушай диалоги и прочитай их.,языковое,0.6945,False
+88,33,Module 1,"1 Lulu: Chuckles, come here!
+Larry: Oh no! He s in the house!
+Lulu: Where s Mummy?",языковое,0.5126,True
+89,33,Module 1,Larry: Look! Mummy s in the kitchen.,языковое,0.5126,True
+90,33,Module 1,"2 Larry: Where s Daddy?
+Lulu: He s in the bedroom.
+Larry: But where s Chuckles?
+Lulu: Quick! Let s go!",языковое,0.5126,True
+91,34,Module 1,"2 Перечитай диалоги и выбери правильный ответ.
+Where's Daddy?",коммуникативное,0.6137,False
+92,34,Module 1,"3 Спой песенку, сопровождая её движениями.
+Chuckles is in the house,
+Chuckles is in the tree,
+Chuckles is in the tree house,
+Looking at you and me!
+Chuckles is in the kitchen,
+Chuckles is in the house,
+Chuckles is in the bathroom,",языковое,0.8758,False
+93,35,Module 1,3 In the Bath!,языковое,0.5126,True
+94,35,Module 1,"1 Слушай запись и повторяй за диктором.
+living room
+bathroom
+bath",языковое,0.8189,False
+95,35,Module 1,"2 Спой песенку, сопровождая её движениями.
+This is my house,
+This is the door!
+The windows are clean,
+and so is the floor!
+Outside there's a chimney,
+As tall as can be,
+With smoke that goes up,",языковое,0.8758,False
+96,35,Module 1,34 Module 1,языковое,0.5126,True
+97,36,Module 1,Прослушай диалог и прочитай его.,языковое,0.7937,False
+98,36,Module 1,"1 Larry: Is Chuckles in the living room?
+Lulu: No, he isn t.",языковое,0.5126,True
+99,36,Module 1,"2 Larry: Is he in the kitchen?
+Lulu: No, he isn t.",языковое,0.5126,True
+100,36,Module 1,"3 Lulu: Is he in the bedroom?
+Larry: No, he isn t.",языковое,0.5126,True
+101,36,Module 1,"4 Larry: Is he in the bathroom?
+Lulu: Yes, he is! Look! He s in the bath!",языковое,0.5126,True
+102,36,Module 1,"Прочитай диалог ещё раз и закончи предложение.
+Chuckles is in the ... .",языковое,0.5641,True
+103,37,Module 1,"1 Давай поиграем!
+I spy with my little eye something in the kitchen.
+A red chair?",коммуникативное,0.6548,False
+104,37,Module 1,"2 Слушай и повторяй за диктором.
+A red hen in a green tree!",языковое,0.8909,False
+105,37,Module 1,"3 /e/ or /i/? Перерисуй таблицу в тетрадь и заполни её.
+/e/ | /i/
+--- | ---
+... | ...
+... | ...
+... | ...
+red
+bed",языковое,0.6642,False
+106,37,Module 1,36 Module 1,языковое,0.5126,True
+107,38,Module 1,"4 Давай сделаем домик!
+1
+2
+3
+4",коммуникативное,0.5862,True
+108,38,Module 1,"5 Спой песенку,
+сопровождая её
+движениями.
+Footprints in the kitchen,
+Footprints in the hall,
+Footprints on the floor,
+Footprints on the wall!
+Footprints in the living room,",языковое,0.8758,False
+109,39,Module 1,"Прочитай и напиши о своей спальне используя образец.
+This is my bedroom: a blue chair, a red bed and a brown table.
+Gardens in the UK
+In the UK people love their gardens. You can see a lot of nice things in them!
+a bird house a greenhouse a garden gnome",коммуникативное,0.6293,False
+110,39,Module 1,38 Module 1,языковое,0.5126,True
+111,40,Module 1,2 matchboxes,языковое,0.5126,True
+112,40,Module 1,"2 paper clips
+a toothpick
+a long piece of string
+1
+2
+3
+4",языковое,0.5126,True
+113,41,Module 1,40 - Module 1,языковое,0.5126,True
+114,43,Module 1,"1 Поговори со своим одноклассником,
+используя образец.
+Where's Daddy?
+He's in the bedroom.",коммуникативное,0.7746,False
+115,44,Module 1,2 Прочитай слова и выбери соответствующую им картинку.,языковое,0.7094,False
+116,44,Module 1,"1 garden
+A
+B
+C",языковое,0.5126,True
+117,44,Module 1,"2 bathroom
+A
+B
+C",языковое,0.5126,True
+118,44,Module 1,"3 living room
+A
+B
+C",языковое,0.5126,True
+119,44,Module 1,"4 bedroom
+A
+B
+C",языковое,0.5126,True
+120,44,Module 1,"3 Прочитай словосочетания и выбери правильный ответ.
+1
+A
+B
+a black chair
+4
+A
+B",языковое,0.5467,True
+121,45,Module 1,4 My Birthday!,языковое,0.5126,True
+122,45,Module 1,"1 Слушай и повторяй за диктором.
+candles party
+happy sad
+one two three
+four five six
+seven eight nine ten",языковое,0.8909,False
+123,45,Module 1,"2 Поговори со своим одноклассником, используя образец
+How old are you?
+I m five!",коммуникативное,0.7746,False
+124,45,Module 1,"6 9 7 10 8
+six nine seven ten eight",языковое,0.5126,True
+125,46,Module 1,Прослушай диалог и прочитай его.,языковое,0.7937,False
+126,46,Module 1,"1 Man: You re happy today, Lulu!
+Lulu: Yes! It s my birthday!
+Man: How old are you today?
+Lulu: I m five! Bye!
+Man: Happy Birthday!",языковое,0.5126,True
+127,46,Module 1,"2 Lulu: Hello, Nanny! Let s go into the house!
+Nanny: OK, dear!",языковое,0.5126,True
+128,46,Module 1,3 Lulu: Where s Mummy? Where s Daddy? Where s Larry? Where s my birthday party?,языковое,0.5126,True
+129,46,Module 1,"4 Nanny: Don t be sad, Lulu! Let s go into the garden, dear!
+All: SURPRISE!",языковое,0.5126,True
+130,46,Module 1,"4 Прочитай диалог ещё раз и выбери правильный ответ.
+How old is Lulu? a 5 b 7",коммуникативное,0.5984,True
+131,47,Module 2,"1 Закончи предложения и прочитай их. Перепиши их в тетрадь.
+1
+He s ... .
+2
+He s ... .
+3
+It s a ... .
+4",языковое,0.7582,False
+132,47,Module 2,"2 Прочитай, что говорят дети, и выбери правильный ответ.
+I m five/three!
+I m ten/one!
+I m six/seven!
+I m six/nine!
+I m nine/four!
+I m two/eight!",коммуникативное,0.5550,True
+133,49,Module 2,5 Yummy Chocolate!,языковое,0.5126,True
+134,49,Module 2,"1 Слушай и повторяй за диктором.
+burgers
+chips
+apples
+bananas
+sandwiches",языковое,0.8909,False
+135,49,Module 2,"2 Поговори со своим одноклассником, используя образец.
+What's your favourite food?
+Chocolate, yummy!",коммуникативное,0.7746,False
+136,51,Module 2,1 Прослушай диалог и прочитай его.,языковое,0.7937,False
+137,51,Module 2,"1 Lulu: This is a lovely party! Mmm, burgers! I like burgers!",языковое,0.5126,True
+138,51,Module 2,2 Lulu: Chips too! Yummy! I like chips!,языковое,0.5126,True
+139,51,Module 2,"Larry: Look, Lulu! Sandwiches!
+Lulu: Thank you, Larry!",языковое,0.5126,True
+140,51,Module 2,"3 Lulu: Oh, bananas! Thank you, Chuckles! I like bananas too!",языковое,0.5126,True
+141,51,Module 2,"2 Чем угощают на празднике? Прочитай диалог ещё раз и выбери правильный ответ.
+a
+b
+c
+d
+e",коммуникативное,0.6134,False
+142,53,Module 2,"1 Слушай и повторяй за диктором.
+ice cream
+pizza
+milk
+orange juice
+chocolate cake",языковое,0.8909,False
+143,53,Module 2,"2 Спой песенку, сопровождая её движениями.
+Happy birthday to you,
+Happy birthday to you,
+Happy birthday, dear Lulu,
+Happy birthday to you!",языковое,0.8758,False
+144,54,Module 2,Прослушай диалог и прочитай его.,языковое,0.7937,False
+145,54,Module 2,"1 Lulu: What s your favourite food, Nanny?
+Nanny: Well, my favourite food is pizza!",языковое,0.5126,True
+146,54,Module 2,"2 Larry: My favourite food is ice cream!
+Nanny: What s your favourite food, Lulu?
+Lulu: Well ...",языковое,0.5126,True
+147,54,Module 2,"3 Lulu: My favourite food is ... chocolate cake!
+Everyone: Happy birthday to you ...",языковое,0.5126,True
+148,54,Module 2,"Прочитай диалог ещё раз и закончи предложение.
+Nanny s favourite food is ... .",языковое,0.5641,True
+149,55,Module 2,"1 Давай поиграем!
+I like chips!
+I don t like bananas!",коммуникативное,0.6548,False
+150,55,Module 2,"2 Слушай и повторяй за диктором.
+Candles on a chocolate cake!",языковое,0.8909,False
+151,55,Module 2,"3 /t / или /k/? Перерисуй таблицу в тетрадь и заполни ее.
+/t / | /k/
+--- | ---
+... | ...
+... | ...
+... | ...
+... | ...
+chips cake cheese",языковое,0.6440,False
+152,56,Module 2,4 Давай сделаем открытку!,коммуникативное,0.5759,True
+153,56,Module 2,"5 Спой песенку, сопровождая её движениями.
+Hurry, hurry,
+Come and see!
+Today there's a party,
+Just for me!
+With burgers, biscuits
+And bananas too!
+There's lots to eat",языковое,0.8758,False
+154,57,Module 2,"Прочитай и напиши о своей любимой еде, используя образец.
+My favourite food is burgers and chips. Yummy!
+Food Favourites!
+Here are some very popular dishes in the UK. Yummy!
+Fish and chips
+Kebab
+Curry",коммуникативное,0.6475,False
+155,57,Module 2,56 Module 2,языковое,0.5126,True
+156,58,Module 2,"Fun at school
+Make your own PARTY HAT
+Materials:
+a paper plate
+coloured paper
+paint, markers, or crayons
+scissors
+glue",языковое,0.5126,True
+157,59,Module 2,58   Module 2,языковое,0.5126,True
+158,61,Module 2,"1 Поговори со своим одноклассником, используя образец.
+What's your favourite food? Pizza, yummy!",коммуникативное,0.7746,False
+159,61,Module 2,"2 Сосчитай свечи и выбери правильный ответ.
+1
+one/two
+2
+seven/nine
+3
+ten/eight
+4",коммуникативное,0.6033,False
+160,61,Module 2,60 Module 2,языковое,0.5126,True
+161,62,Module 2,3 Прочитай слова и выбери правильный ответ.,языковое,0.5919,True
+162,62,Module 2,"1   egg
+eggs",языковое,0.5126,True
+163,62,Module 2,"2   apple
+apples",языковое,0.5126,True
+164,62,Module 2,"3   banana
+bananas",языковое,0.5126,True
+165,62,Module 2,"4   burger
+burgers",языковое,0.5126,True
+166,62,Module 2,"5   chip
+chips",языковое,0.5126,True
+167,62,Module 2,"6   sandwich
+sandwiches",языковое,0.5126,True
+168,62,Module 2,4 Прочитай слова и найди соответствующие им картинки.,языковое,0.8208,False
+169,62,Module 2,1 candles,языковое,0.5126,True
+170,62,Module 2,2 ice cream,языковое,0.5126,True
+171,62,Module 2,3 chocolate,языковое,0.5126,True
+172,62,Module 2,4 pizza,языковое,0.5126,True
+173,62,Module 2,5 sandwiches,языковое,0.5126,True
+174,62,Module 2,"6 party
+a
+b
+c
+d
+e
+f",языковое,0.5126,True
+175,63,Module 2,"1 Слушай и повторяй за диктором.
+fish
+swim
+frog
+jump
+bird
+sing
+chimp",языковое,0.8909,False
+176,63,Module 2,"2 Поговори со своим одноклассником, используя образец.
+I can jump like a frog.
+I can jump too.
+- run like a horse
+- dance like a chimp
+- sing like a bird
+- swim like a fish",коммуникативное,0.7746,False
+177,64,Module 2,Прослушай диалог и прочитай его.,языковое,0.7937,False
+178,64,Module 2,"1 Larry: Nanny, look! A fish. I can swim too!
+Nanny: Well done, Larry!",языковое,0.5126,True
+179,64,Module 2,"2 Lulu: Nanny, look! A frog. I can jump too!
+Nanny: Well done, dear!",языковое,0.5126,True
+180,64,Module 2,"3 Nanny: Hurry, children! Food s ready.",языковое,0.5126,True
+181,64,Module 2,"4 Larry: Nanny, where s Chuckles?",языковое,0.5126,True
+182,64,Module 2,4 Прочитай диалог ещё раз и составь предложения.,языковое,0.5280,True
+183,64,Module 2,1 Larry can a jump.,языковое,0.5126,True
+184,64,Module 2,2 Lulu can b swim.,языковое,0.5126,True
+185,65,Module 2,"1 Прочитай слова, составь предложения и прочитай их.",языковое,0.8037,False
+186,65,Module 2,1 frog,языковое,0.5126,True
+187,65,Module 2,2 bird,языковое,0.5126,True
+188,65,Module 2,3 chimp,языковое,0.5126,True
+189,65,Module 2,4 fish,языковое,0.5126,True
+190,65,Module 2,"5 horse
+a sing
+b jump
+c swim
+d run
+e dance",языковое,0.5126,True
+191,65,Module 2,1 A frog can jump.,языковое,0.5126,True
+192,65,Module 2,"2 Что умеют делать дети? Посмотри на картинки и скажи, используя образец.
+1
+2
+3
+4
+Larry
+Lulu
+Bob",коммуникативное,0.6753,False
+193,65,Module 2,1 Larry can dance.,языковое,0.5126,True
+194,67,Module 3,8 I Can Jump!,языковое,0.5126,True
+195,67,Module 3,"1 Слушай и повторяй за диктором.
+climb fly boy girl",языковое,0.8909,False
+196,67,Module 3,"2 Поговори со своим одноклассником, используя образец.
+Can you jump?
+Yes, I can.
+Can you fly?
+No, I can't.",коммуникативное,0.7746,False
+197,69,Module 3,1 Прослушай диалог и прочитай его.,языковое,0.7937,False
+198,69,Module 3,"1 Larry: Chuckles!
+Lulu: Chuckles, where are you?",языковое,0.5126,True
+199,69,Module 3,"2 Larry: Look! There's Chuckles in the tree!
+Lulu: Can you climb the tree, Larry?
+Larry: No, I can't.",языковое,0.5126,True
+200,69,Module 3,"3 Lulu: Look! Who's that?
+Larry: Ha, ha! It's a girl chimp.",языковое,0.5126,True
+201,69,Module 3,"4 Lulu: Look, Nanny! Two chimps. A boy and a girl.
+Larry: Yes, Chuckles and Cherry! Ha, ha.
+Nanny: Oh dear!",языковое,0.5126,True
+202,69,Module 3,"2 Прочитай диалог ещё раз и выбери правильный ответ.
+Larry can/can t climb the tree.",коммуникативное,0.5984,True
+203,71,Module 3,9 At the Circus!,языковое,0.5126,True
+204,71,Module 3,"1 Слушай и повторяй за диктором.
+clown
+circus
+swing
+magician",языковое,0.8909,False
+205,71,Module 3,"2 Спой песенку, сопровождая её движениями.
+At the circus
+In the town,
+There's a very funny clown!
+The clown can run,
+And the clown can jump,
+Run and jump all day,
+Hey!",языковое,0.8758,False
+206,72,Module 3,Прослушай диалог и прочитай его.,языковое,0.7937,False
+207,72,Module 3,"1 Larry: Wow, the circus! Look, a clown.
+Lulu: Cherry, Cherry, where are you?
+Magician: Cherry, Cherry, where are you?",языковое,0.5126,True
+208,72,Module 3,"2 Nanny: Cherry s here!
+Magician: Oh, thank you! Do you want to come to the circus today?
+Larry & Lulu: Ooh, yes, please!",языковое,0.5126,True
+209,72,Module 3,"3 Magician: Now, boys and girls! Look at Cherry. And... Abracadabra, Alacazam! Look!",языковое,0.5126,True
+210,72,Module 3,4 Nanny: Bravo! Bravo!,языковое,0.5126,True
+211,72,Module 3,"4 Прочитай диалог ещё раз и выбери правильный ответ.
+Now, boys and girls, look at ... a Chuckles. b Cherry.",коммуникативное,0.5984,True
+212,73,Module 3,"1 Давай поиграем!
+can can't
+A horse can run!",коммуникативное,0.6548,False
+213,73,Module 3,"2 Слушай и повторяй за диктором.
+The bird can sing and the girl can swing!",языковое,0.8909,False
+214,73,Module 3,"3 / / или /  /? Перерисуй таблицу в тетрадь и заполни её.
+/ / | /  /
+--- | ---
+... | ...
+... | ...
+girl
+chimp
+bird",языковое,0.6753,False
+215,73,Module 3,72 Module 3,языковое,0.5126,True
+216,74,Module 3,4 Давай сделаем маску!,коммуникативное,0.5862,True
+217,74,Module 3,"5 Спой песенку, сопровождая её движениями.
+I'm a horse! I'm a horse!
+And I can jump, of course!",языковое,0.8758,False
+218,74,Module 3,"Look at me! Look at me!
+I'm a cat! I'm a cat!
+And I can climb like that!",языковое,0.5126,True
+219,74,Module 3,"Look at me! Look at me!
+I'm a fish! I'm a fish!
+And I can swim, splish, splish!",языковое,0.5126,True
+220,74,Module 3,"Look at me! Look at me!
+I'm a chimp! I'm a chimp!
+And I can climb and swing!",языковое,0.5126,True
+221,74,Module 3,Look at me! Look at me!,языковое,0.5126,True
+222,75,Module 3,"Прочитай и напиши, что ты умеешь делать, используя образец.
+I can sing and I can dance.
+I can jump like a frog too!
+Spotlight on the UK
+Crazy about Animals!
+People in the UK love animals, especially cats and dogs.
+Meow!
+Popular names for cats are: Fluffy, Sam, Kitty, Smokey and Tiger!",коммуникативное,0.6723,False
+223,75,Module 3,74 Module 3,языковое,0.5126,True
+224,76,Module 3,"Fun at school
+Make your own A FISH BOWL YOU CAN EAT!
+Materials:
+blue/green jelly
+fish gums (or any other gums)
+clear plastic cups
+1
+2",языковое,0.5126,True
+225,76,Module 3,"3 1hr
+4
+5",языковое,0.5126,True
+226,77,Module 3,Town Mouse: Look at my living room!,языковое,0.5126,True
+227,77,Module 3,Look at my chair!,языковое,0.5126,True
+228,77,Module 3,And look at the table over there!,языковое,0.5126,True
+229,77,Module 3,76 - Module 3,языковое,0.5126,True
+230,79,Module 3,"1 Поговори со своим одноклассником, используя образец.
+Can a horse run?
+Yes, it can.
+Can a frog fly?
+No, it can t.
+chimp
+climb
+frog",коммуникативное,0.7746,False
+231,79,Module 3,"2 Перепиши слова в тетрадь, вставляя пропущенные буквы.
+1
+c _ r _ u _
+2
+m _ g _ c _ _ n
+3
+_ l _ w _
+4",языковое,0.7173,False
+232,80,Module 3,"3 Прочитай предложения, вставляя пропущенные слова.
+Bob Chuckles Alan Sam",языковое,0.7300,False
+233,80,Module 3,1 ... can dance.,языковое,0.5126,True
+234,80,Module 3,2 ... can sing.,языковое,0.5126,True
+235,80,Module 3,3 ... can swing.,языковое,0.5126,True
+236,80,Module 3,4 ... can run.,языковое,0.5126,True
+237,80,Module 3,"4 Прочитай вопросы, посмотри на картинки и скажи, что ответят дети.",языковое,0.5068,True
+238,80,Module 3,"1 Can you swim? Yes, I can./No, I can t.",языковое,0.5126,True
+239,80,Module 3,"2 Can you climb? Yes, I can./No, I can t.",языковое,0.5126,True
+240,80,Module 3,"3 Can you run? Yes, I can./No, I can t.",языковое,0.5126,True
+241,80,Module 3,"4 Can you jump? Yes, I can./No, I can t.",языковое,0.5126,True
+242,80,Module 3,"5 Can you sing? Yes, I can./No, I can t.",языковое,0.5126,True
+243,81,Module 3,10 My Toys!,языковое,0.5126,True
+244,81,Module 3,"1 Слушай и повторяй за диктором.
+teddy bear
+toy soldier
+ballerina
+pink
+shelf
+on
+under",языковое,0.8909,False
+245,81,Module 3,"2 Поговори со своим одноклассником, используя образец.
+Where's the teddy bear?
+It's on the table.
+on
+under
+in
+on",коммуникативное,0.7746,False
+246,82,Module 3,Прослушай диалог и прочитай его.,языковое,0.7937,False
+247,82,Module 3,"1 Nanny: Oh, dear, Chuckles! What's the matter?
+Lulu: He can t find his teddy bear. Nanny, where s his teddy bear?
+Nanny: I don t know.",языковое,0.5126,True
+248,82,Module 3,"2 Lulu: Is it under the table?
+Larry: No, it isn t!
+Lulu: Oh, where is it?",языковое,0.5126,True
+249,82,Module 3,"3 Lulu: Is it on the shelf?
+Larry: No, it isn t.",языковое,0.5126,True
+250,82,Module 3,4 Nanny: What about the toy box? Is it in the toy box?,языковое,0.5126,True
+251,82,Module 3,"Larry: Oh, look! My toy soldier!",языковое,0.5126,True
+252,82,Module 3,"Lulu: And look! My ballerina!
+Nanny: But what about Chuckles  teddy bear?",языковое,0.5126,True
+253,82,Module 3,"Прочитай диалог ещё раз и скажи, чьи это игрушки.",коммуникативное,0.5939,True
+254,82,Module 3,"1 Larry 2 Lulu 3 Chuckles
+a ballerina b teddy bear c toy soldier",языковое,0.5126,True
+255,83,Module 3,"1 Прочитай слова, составь предложения и скажи, что изображено на картинках.",языковое,0.5315,True
+256,83,Module 3,1 teddy bear,языковое,0.5126,True
+257,83,Module 3,2 toy soldier,языковое,0.5126,True
+258,83,Module 3,"3 ballerina
+a
+b
+c",языковое,0.5126,True
+259,83,Module 3,1 It's a ...,языковое,0.5126,True
+260,83,Module 3,"2 Прочитай предложения, выбирая нужный предлог.
+The teddy bear is on in the toy box.
+The teddy bear is on under the table.
+The teddy bear is under on the shelf.",языковое,0.6791,False
+261,85,Module 3,11 She's got blue eyes!,языковое,0.5126,True
+262,85,Module 3,"1 Слушай и повторяй за диктором.
+dark hair
+eyes
+nose
+mouth
+ears",языковое,0.8909,False
+263,85,Module 3,"2 Поговори со своим одноклассником, используя образец.
+I've got green eyes!
+I've got blue eyes.",коммуникативное,0.7746,False
+264,86,Module 3,"3 Спой песенку.
+I ve got two eyes,
+A mouth and a nose!
+I ve got two feet,
+But I haven t got toes!
+Two hands, two ears,
+And lots of hair!
+What am I?",языковое,0.8277,False
+265,87,Module 4,1 Прослушай диалог и прочитай его.,языковое,0.7937,False
+266,87,Module 4,"1 Lulu: Nanny, look at my ballerina! She s got blue eyes!
+Nanny: Yes, she s very pretty!",языковое,0.5126,True
+267,87,Module 4,"2 Larry: Look at my toy soldier! He s got dark hair!
+Nanny: Oh, yes. He s wonderful! But what about Chuckles  teddy bear?",языковое,0.5126,True
+268,87,Module 4,"3 Larry: Chuckles, what have you got? Is it your teddy bear?
+Lulu: Oh, clever Chuckles!",языковое,0.5126,True
+269,87,Module 4,"4 Larry: Oh no! Look at the teddy bear!
+Nanny: Oh, Chuckles! Don t be sad!",языковое,0.5126,True
+270,87,Module 4,2 Прочитай диалог ещё раз и вставь пропущенные слова.,языковое,0.5885,True
+271,87,Module 4,1 My ballerina s got ... eyes.,языковое,0.5126,True
+272,87,Module 4,2 My toy soldier s got ... hair.,языковое,0.5126,True
+273,88,Module 4,"3 Спой песенку, сопровождая её движениями.
+In my toy box
+I've got a teddy bear,
+And a ballerina
+With long dark hair!
+In my toy box
+I've got a soldier too!
+I've got lots of toys",языковое,0.8758,False
+274,88,Module 4,"Look in my toy box,
+Come and see!
+Toys for you,
+Toys for me!",языковое,0.5126,True
+275,89,Module 4,12 Teddy's Wonderful!,языковое,0.5126,True
+276,89,Module 4,"1 Слушай и повторяй за диктором.
+fair hair
+puppet
+jack-in-the-box
+small
+big",языковое,0.8909,False
+277,89,Module 4,"2 Спой песенку, сопровождая её движениями.
+Of all the toys
+In my toy box,
+My favourite toy
+Is jack-in-the-box!
+He can roll up in a ball,",языковое,0.8758,False
+278,89,Module 4,"He can look very small!
+Then one-two-three,
+As quick as can be,
+He can jump right up
+As big as me!",языковое,0.5126,True
+279,90,Module 4,Прослушай диалог и прочитай его.,языковое,0.7937,False
+280,90,Module 4,"1 Larry: Oh no! Teddy hasn t got any eyes!
+Nanny: Yes, he has!",языковое,0.5126,True
+281,90,Module 4,2 Nanny: He s got two big eyes.,языковое,0.5126,True
+282,90,Module 4,"Lulu: But look, Nanny! He hasn t got a nose!
+Nanny: Yes, he has! He s got a small black nose.",языковое,0.5126,True
+283,90,Module 4,"3 Larry: Oh, now Teddy s wonderful!
+Lulu: Now Chuckles is very happy. Thank you, Nanny!
+Larry: Thank you, Nanny!",языковое,0.5126,True
+284,90,Module 4,4 Прочитай диалог ещё раз и вставь пропущенные слова.,языковое,0.5885,True
+285,90,Module 4,1 He s got two ... eyes.,языковое,0.5126,True
+286,90,Module 4,2 He s got a ... black nose.,языковое,0.5126,True
+287,91,Module 4,"1 Давай поиграем!
+It's got dark hair, a big nose, a big mouth and small ears.
+The puppet!",коммуникативное,0.6548,False
+288,91,Module 4,"2 Слушай и повторяй за диктором.
+A happy teddy with a yellow yo-yo!",языковое,0.8909,False
+289,91,Module 4,"3 /i/ или /j/? Перерисуй таблицу в тетрадь и заполни её.
+/i/ | /j/
+--- | ---
+... | ...
+... | ...
+happy
+yellow
+yacht",языковое,0.6753,False
+290,92,Module 4,4 Давай сделаем бумажную куклу!,коммуникативное,0.5862,True
+291,92,Module 4,"5 Спой песенку, сопровождая её движениями.
+Ten little puppets sitting on a wall,
+Ten little puppets sitting on a wall,
+And if one little puppet falls off the wall,
+There ll be nine little puppets sitting on a wall!
+Nine little puppets sitting on a wall,
+Nine little puppets sitting on a wall,
+And if one little puppet falls off the wall,",языковое,0.8758,False
+292,95,Module 4,94 - Module 4,языковое,0.5126,True
+293,97,Module 4,"1 Поговори со своим одноклассником, используя образец.
+Where's the teddy bear?
+It's in the toy box.",коммуникативное,0.7746,False
+294,97,Module 4,"2 Прочитай предложения, выбирая нужное слово.
+She s got dark fair hair.
+He s got small big ears.
+It s got a big small nose.
+She s got blue brown eyes",языковое,0.6497,False
+295,98,Module 4,3 Прочитай слова и подбери соответствующие картинки.,языковое,0.7908,False
+296,98,Module 4,1 jack-in-the-box,языковое,0.5126,True
+297,98,Module 4,2 puppet,языковое,0.5126,True
+298,98,Module 4,3 toy soldier,языковое,0.5126,True
+299,98,Module 4,"4 ballerina
+a
+b
+c
+d",языковое,0.5126,True
+300,98,Module 4,"4 Прочитай предложения и подбери соответствующие картинки.
+It's got fair hair.
+It's got a big nose.
+It's got small ears.
+Which one is it?
+A
+B
+C",языковое,0.7011,False
+301,99,Module 4,"1 Слушай и повторяй за диктором.
+It's sunny!
+It's hot!
+It's raining!
+jacket
+coat
+take off
+put on",языковое,0.8909,False
+302,99,Module 4,"2 Поговори со своим одноклассником, используя образец.
+It's hot!
+Put on your hat!
+It's hot!
+Take off your jacket!
+your hat
+your jacket
+your shorts",коммуникативное,0.7746,False
+303,100,Module 4,Прослушай диалог и прочитай его.,языковое,0.7937,False
+304,100,Module 4,"1 Larry: It s sunny today! Can we go in the boat, Nanny?
+Nanny: Of course! We re on holiday!",языковое,0.5126,True
+305,100,Module 4,"Larry: Look! I m wearing my hat!
+Lulu: Oh, Chuckles! Take off your jacket! It s hot today!",языковое,0.5126,True
+306,100,Module 4,"2 Larry: I love summer holidays.
+Lulu: I love boats.
+Nanny: Yes, this is a lovely holiday.",языковое,0.5126,True
+307,100,Module 4,"3 Larry: Oh no! What s that?
+Nanny: Oh dear! It s raining! Lulu, put on your hat.
+Lulu: Nanny, what can we do now?",языковое,0.5126,True
+308,100,Module 4,"Larry: Nanny! Look at our boat!
+Lulu: Oh, Nanny! HELP!!",языковое,0.5126,True
+309,100,Module 4,"4 Прочитай диалог ещё раз и вставь пропущенное слово.
+Chuckles, take off your ...!",языковое,0.5154,True
+310,101,Module 4,"1 Прочитай предложения и подбери соответствующую картинку.
+1
+2
+3
+a It s sunny!
+b It s hot!
+c It s raining!",языковое,0.6831,False
+311,101,Module 4,2 Прочитай предложения и закончи их.,языковое,0.7313,False
+312,101,Module 4,1 It s hot today. I m wearing my green ...!,языковое,0.5126,True
+313,101,Module 4,2 Look! He s wearing his blue ...!,языковое,0.5126,True
+314,101,Module 4,3 Look! She s wearing her red ...!,языковое,0.5126,True
+315,101,Module 4,100 Module 5,языковое,0.5126,True
+316,103,Module 4,"1 Слушай и повторяй за диктором.
+It's windy!
+It's cold!
+island
+socks
+T-shirt
+jeans
+shoes",языковое,0.8909,False
+317,103,Module 4,"2 Поговори со своим одноклассником, используя образец.
+What's the weather like?
+It's cold!",коммуникативное,0.7746,False
+318,105,Module 4,Прослушай диалог и прочитай его.,языковое,0.7937,False
+319,105,Module 4,"1 Larry: Oh, it's windy now! It's cold!
+Lulu: Oh, Nanny! Please help!",языковое,0.5126,True
+320,105,Module 4,"2 Nanny: Don't worry, children. Close your eyes!",языковое,0.5126,True
+321,105,Module 4,"3 Nanny: Alright! Open your eyes now.
+Larry: Wow! What's that?
+Lulu: It's an island!
+Nanny: Yes! It's a magic island.
+Larry & Lulu: Oooh!",языковое,0.5126,True
+322,105,Module 4,2 Прочитай диалог ещё раз и выбери правильный ответ.,коммуникативное,0.5984,True
+323,105,Module 4,"Look! a A garden!
+b An island!",языковое,0.5126,True
+324,107,Module 5,15 A Magic Island!,языковое,0.5126,True
+325,107,Module 5,"1 Слушай и повторяй за диктором.
+flowers music summer
+winter autumn spring",языковое,0.8909,False
+326,107,Module 5,"2 Спой песенку, сопровождая её движениями.
+We're on our summer holiday,
+We're having lots of fun!
+We're on our summer holiday,
+We're playing in the sun!
+We love summer,
+We love the sun!
+We love summer,",языковое,0.8758,False
+327,108,Module 5,Прослушай диалог и прочитай его.,языковое,0.7937,False
+328,108,Module 5,1 Lulu: Wow! This is a magic island!,языковое,0.5126,True
+329,108,Module 5,Larry: Look at the trees! Look at the flowers!,языковое,0.5126,True
+330,108,Module 5,"2 Lulu: What's that?
+Larry: It s music, of course!
+Nanny: Let s go and see!",языковое,0.5126,True
+331,108,Module 5,"3 Woman: Aloha! Welcome!
+Larry: A party! Great!
+Lulu: Let s dance.",языковое,0.5126,True
+332,108,Module 5,"4 Larry/Lulu: We re on our summer holiday, we re having lots of fun! We re on our summer holiday, we re playing in the sun!",языковое,0.5126,True
+333,108,Module 5,"4 Прочитай диалог ещё раз и вставь пропущенное слово.
+Larry and Lulu are on their ... holiday!",языковое,0.5154,True
+334,109,Module 5,"3 с, ck или k? Перерисуй таблицу в тетрадь и заполни её.
+/k/
+c | k | ck
+--- | --- | ---
+... | ... | ...
+... | ... | ...
+... | ... | ...
+coat",языковое,0.6753,False
+335,109,Module 5,108 Module 5,языковое,0.5126,True
+336,110,Module 5,4 Давай оденем Ларри и Лулу!,коммуникативное,0.5865,True
+337,110,Module 5,"5 Спой песенку, сопровождая её движениями.
+Set sail with us,
+Join us, please!
+Set sail with us for English!
+Set sail with us
+Upon the sea
+And swim with all the starfish!
+We love to sing,",языковое,0.8758,False
+338,112,Module 5,"Fun at school
+Make A SUNDIAL
+Materials:
+- scissors
+- 2 pieces of
+cardboard
+- a pencil
+- a ruler",языковое,0.5126,True
+339,113,Module 5,112   Module 5,языковое,0.5126,True
+340,115,Module 5,"1 Поговори со своим одноклассником, используя образец.
+What's the weather like?
+It's hot.",коммуникативное,0.7746,False
+341,115,Module 5,1 2 3 4,языковое,0.5126,True
+342,115,Module 5,"2 Прочитай слова и подбери соответствующую им картинку.
+a summer
+b autumn
+c winter
+d spring",языковое,0.7425,False
+343,115,Module 5,1 2 3 4,языковое,0.5126,True
+344,116,Module 5,"3 Прочитай слова и подбери соответствующие им картинки.
+skirt - 2
+shorts - ...
+shoes - ...
+T-shirt - ...
+jeans - ...
+jacket - ...",языковое,0.8078,False
+345,116,Module 5,"4 I'm, He's или She's?
+I'm wearing my yellow T-shirt!
+... wearing her red skirt!
+... wearing his green shoes!
+... wearing my blue jeans!",языковое,0.5770,True
+346,117,Module 5,"1 Спой песенку, сопровождая её движениями.
+Eat your eggs
+And drink your juice,
+Today it s showtime, folks!
+Put on your hat
+And socks and shoes,
+Today it s showtime, folks!
+It s showtime,",языковое,0.8758,False
+347,118,Module 5,Прослушай диалог и прочитай его.,языковое,0.7937,False
+348,118,Module 5,"1 Nanny: Larry, eat your eggs! Lulu, drink your orange juice.
+Lulu: Is it showtime yet, Nanny?
+Nanny: Not yet. Tonight, Lulu!",языковое,0.5126,True
+349,118,Module 5,"2 Larry: Hooray, hooray. Showtime today!
+Lulu: I like showtime. It s my favourite day! I m happy today!",языковое,0.5126,True
+350,118,Module 5,"3 Nanny: Agh! What s that?
+Larry: It s a big bear!",языковое,0.5126,True
+351,118,Module 5,"4 Lulu: That s not a bear! It s Chuckles!
+Larry: Ha, ha! Chuckles is wearing my teddy bear costume!
+Перечитай диалог и закончи предложение.
+Chuckles is wearing my teddy bear ... !",языковое,0.6023,False
+352,119,Module 5,"1 Спой песенку, сопровождая её нужными движениями.
+Teddy bear, teddy bear,
+Turn around!
+Teddy bear, teddy bear,
+Touch the ground!
+Teddy bear, teddy bear,
+Climb the stairs!
+Teddy bear, teddy bear,",языковое,0.8467,False
+353,119,Module 5,"Say your prayers!
+Teddy bear, teddy bear,
+Turn off the lights!
+Teddy bear, teddy bear,",языковое,0.5126,True
+354,119,Module 5,"Say goodnight!
+Goodnight and Goodbye!!!",языковое,0.5126,True
+355,119,Module 5,118 Extra Unit,языковое,0.5126,True
+356,120,Module 5,Прослушай диалог и прочитай его.,языковое,0.7937,False
+357,120,Module 5,"1 Larry: There s Mummy! There s Daddy! But where s Chuckles?
+Lulu: Nanny, we want Chuckles!",языковое,0.5126,True
+358,120,Module 5,"2 Lulu: Oh, Chuckles! You re here!
+Nanny: Now, Chuckles. Sit here and be good!",языковое,0.5126,True
+359,120,Module 5,"3 Larry & Lulu: Teddy bear, teddy bear, turn around...
+Teddy bear, teddy bear, say goodnight!",языковое,0.5126,True
+360,120,Module 5,"4 All: We want Chuckles! We want Chuckles!
+Larry: Here s Chuckles! Goodnight!
+Lulu: Chuckles says goodbye, everyone!
+All: Bravo! Bravo!",языковое,0.5126,True
+361,120,Module 5,"Прочитай диалог ещё раз и выбери правильное слово.
+Chuckles says hello/goodbye!",коммуникативное,0.5081,True
+362,132,Module 5,"1 Соотнеси слова с картинками.
+a a bare room
+b two mice
+c a town
+d a small house",языковое,0.6141,False
+363,132,Module 5,"2 Закончи предложение и перепиши его в тетрадь.
+Dear ... Mouse,
+Please come to my ... . It's very nice.
+Lots of love,
+Country ...",языковое,0.6950,False
+364,133,Module 5,"1 Соотнеси слова с картинками.
+1
+2
+3
+4
+a honey
+b bread
+c cheese",языковое,0.6141,False
+365,133,Module 5,"2 Перепиши предложения в тетрадь, вставляя в слова недостающие буквы.
+I like b..., c... and h... . I don't like m... .",языковое,0.7194,False
+366,134,Module 5,"1 Соотнеси слова с картинками.
+a b c",языковое,0.6141,False
+367,134,Module 5,"1 living room
+a b c",языковое,0.5126,True
+368,134,Module 5,"2 chips
+a b c",языковое,0.5126,True
+369,134,Module 5,3 chair,языковое,0.5126,True
+370,134,Module 5,"2 Прочитай текст, закончи предложения и нарисуй спальню городского мышонка.
+This is Town Mouse s bedroom. Look! There s a big ... and a lovely ....
+There s a nice ... in his bedroom too.",языковое,0.6990,False
+371,135,Module 5,"1 Прочитай предложения, вставляя соответствующее слово.",языковое,0.6682,False
+372,135,Module 5,1 He s got ... eyes.,языковое,0.5126,True
+373,135,Module 5,2 He s got a ... nose.,языковое,0.5126,True
+374,135,Module 5,3 He s got ... ears.,языковое,0.5126,True
+375,135,Module 5,"2 Прочитай предложения, выбирая нужный предлог.",языковое,0.6791,False
+376,135,Module 5,1 Where s the dog? Under On the table.,языковое,0.5126,True
+377,135,Module 5,2 Where s the bed? In On the bedroom.,языковое,0.5126,True
+378,135,Module 5,3 Where s the mouse? Under On the table.,языковое,0.5126,True
+379,136,Module 5,"1 Посмотри на картинки и подбери правильные названия.
+1
+a frogs
+b a shabby house
+2
+c ants
+d bees
+3",языковое,0.5913,True
+380,136,Module 5,"2 Сделай табличку для своего дома.
+HOME SWEET HOME",коммуникативное,0.5087,True
+381,137,Module 5,"1. Gardens in Russia
+In Russia people have got gardens in the village and in their country houses. In the garden they grow vegetables, fruits and flowers.
+a country house
+fruits
+vegetables
+flowers",языковое,0.5126,True
+382,137,Module 5,"2. Typical Russian Food
+In Russia people love ...
+pirozhki (pies) okroshka borshch pelmeni (dumplings)
+Children s favourite food is chicken, chips, pizza, burgers, cakes, ice cream and fruits.",языковое,0.5126,True
+383,138,Module 5,"3. Pets in Russia
+Cats and dogs are very popular pets in Russia. This is Alyosha s story about his pet. Timka is a sheepdog. She is 2. She is very clever and can do a lot of things.",языковое,0.5126,True
+384,138,Module 5,"She can say  Hello!
+She can lie down.
+She can sit.
+She can stand.
+She can dance.
+She can swim.
+She can jump.
+Timka s medals",языковое,0.5126,True
+385,139,Module 5,"4. Old Russian Toys
+In the pictures you can see traditional Russian wooden toys. People from other countries like to take these toys home as souvenirs.
+a horse
+a cook
+matryoshka dolls",языковое,0.5126,True
+386,140,Module 5,"5. Holidays in Russia
+Russia is a very big country. In summer it is very hot in the south and it is warm or cool in the north. At holiday time children can go to the country, to the sea or to camp.
+At the seaside
+swim
+At camp
+sing songs
+In the country
+pick vegetables and fruits",языковое,0.5126,True
+387,141,Module 5,"1 Работа в парах. Прочитайте слова друг другу.
+/ / cat, fat, hat, bat, cap, black, can, hand, man, Dan, and, have, ant, has, Pam
+/e / cake, snake, lake, plane, Jane, name, plate, Dave",языковое,0.5108,True
+388,141,Module 5,"2 Работа в парах. Прочитайте друг другу слова, словосочетания и предложения.
+/ / milk, pink, Kim, sit, big, swim, rich, is, sister, kitten, little, listen
+/a / bike, like, Mike, kite, write, white, fine, nine, ride, drive, five, ice, I, hi
+/i / - /a /
+a kitten
+a white kitten
+a little white kitten
+I have a little white kitten.",языковое,0.5469,True
+389,141,Module 5,"3 Работа в парах. Прочитайте слова друг другу.
+/i / we, me, be, he, she, Pete
+/e/ zebra, seven, desk, men, ten, pen, hen, red, bed, wet, egg, leg, dress, elf, Ken
+140",языковое,0.5108,True
+390,142,Module 5,"4 Работа в парах. Прочитайте друг другу слова, словосочетания и предложения.
+/а / fly, sky, bye, my
+/ / baby, teddy, pretty, family
+/a / - / /
+my kite
+my pink kite
+fly my pink kite
+I like to fly my pink kite.",языковое,0.5469,True
+391,142,Module 5,"5 Работа в парах. Прочитайте слова друг другу.
+/  / home, bone, rose, go, ghost, rope, nose, no, Tony
+/ / frog, dog, stop, hot, got, on, Donna",языковое,0.5108,True
+392,143,Module 5,"6 Работа в парах. Прочитайте друг другу слова, словосочетания и предложения.
+/ju / pupil, cute, computer, use,
+student, music
+/ / nut, but, drum,
+sun, fun, run,
+bus, cup, jump,
+puppy, rubber,
+Russia",языковое,0.5469,True
+393,143,Module 5,"7 Работа в парах. Прочитайте слова и текст друг другу.
+/i / bee, tree, feet, deep, feel, sweets,
+green, queen, eat, meat, team, read,
+jeans, peas, please
+My name is Pete.
+I am nine.
+I have got a dog.
+My dog is funny.",языковое,0.5278,True
+394,144,Module 5,"8 Работа в парах. Прочитайте слова и вопросы друг другу.
+/ / mother, brother,
+with, this, they,
+then, that, the
+teeth, thanks,
+three, think
+/ / whale, white,
+when, why, what",языковое,0.5413,True
+395,144,Module 5,"9 Работа в парах. Прочитайте слова и предложения друг другу.
+/ / ship, she, shell, shine, shop, fish, wish; She sells sea shells by the sea.
+/f/ phone, dolphin, elephant; Seven elephants and five dolphins.
+/t / cheese, chips, chimp, chin, cherry, chocolate, beach, teacher; Can I have a cherry on my chocolate cake?",языковое,0.5555,True
+396,144,Module 5,"10 Работа в парах. Прочитайте слова и текст друг другу.
+/ / king, sing, ring,
+song, strong,
+long, going,
+jungle
+/k/ socks, clock,
+duck, crack,
+pack, quick,",языковое,0.5278,True
+397,145,Module 5,"11 Работа в парах. Прочитайте слова и текст друг другу.
+/e / play, grey, day, way, say, pay, away,
+today, Friday
+/  / boy, toy
+Today is Friday. It s play day!
+""Miss Gray, let s play with the
+toys."" I like to play with the
+big grey teddy. His name is",языковое,0.5278,True
+398,145,Module 5,"Ray. He can say: Please play
+with me! He is very funny.",языковое,0.5126,True
+399,145,Module 5,"12 Работа в парах. Прочитайте слова и текст друг другу.
+/e / where, there, pear, square,
+wear, bear, hare, share
+/  / ball, call, fall, all, tall,
+wall, small
+Where, oh where
+Is my teddy bear?
+Is it there, on the wall?",языковое,0.5278,True
+400,149,Unit 15,"1. Gardens in the UK
+bird house /b  d ha s/ скворечник
+gnome /n  m/ гном
+green house / ri n ha s/ оранжерея
+people / pi pl/ люди
+their / e r/ их (чьё?)
+them / em/ их (кого?)
+UK / ju   ke / Соединённое Королевство",языковое,0.5533,True
+401,149,Unit 15,"2. Food Favourites!
+dish /d  / блюдо
+popular / p pj l r/ популярный",языковое,0.5126,True
+402,149,Unit 15,"3. Crazy about Animals!
+crazy about / kre zi   ba t/ сходить с ума по чему-либо, кому-либо
+especially /  spe  li/ особенно",коммуникативное,0.5031,True
+403,149,Unit 15,"4. Teddy Bear Shops
+all kinds of /  l ka ndz  v/ все виды
+clothes /klo  z/ одежда
+cute /kju t/ находчивый, сообразительный
+different / d fr nt/ различный
+Great Britain / re t  br tn/ Великобритания
+shop /  p/ магазин",языковое,0.5391,True
+404,149,Unit 15,"5. Beautiful Cornwall!
+beach /bi t / пляж
+beautiful / bju t f l/ красивый
+southwest / sa  w st/ юго-запад
+Spotlight on Russia",языковое,0.5126,True
+405,149,Unit 15,"1. Gardens in Russia
+country house / k ntri ha s/ загородный дом
+fruit /fru t/ фрукт
+grow / ro / расти
+Russia / r   / Россия
+vegetable / ved t b l/ овощ
+village / v l d / деревня",коммуникативное,0.5201,True
+406,149,Unit 15,"2. Typical Russian food
+pie /pa / пирог
+Russian / r   n/ русский",языковое,0.5310,True
+407,149,Unit 15,"3. Pets
+lie /la / лежать
+pet /pet/ питомец
+sheepdog /  i pd  / овчарка",языковое,0.5126,True
+408,149,Unit 15,"4. Old Russian Toys
+souvenir /su  v n r/ сувенир
+take /te k/ брать
+traditional /tr  d   nl/ традиционный
+wooden / w dn/ деревянный",языковое,0.5126,True
+409,149,Unit 15,"5. Holidays in Russia
+camp /k mp/ детский лагерь
+cool /ku l/ прохладный
+north /n  r / север
+pick /p k/ собирать
+seaside / si sa d/ морское побережье
+song /s  / песня
+south /sa  / юг",языковое,0.5126,True
