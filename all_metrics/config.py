@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import logging
 import os
-from typing import Optional
+from typing import List, Optional, Tuple
 
 try:
     from dotenv import load_dotenv
@@ -26,6 +26,15 @@ def _resolve_path(repo_root: Path, value: Optional[str], default: Path) -> Path:
             p = (repo_root / p).resolve()
         return p
     return default.resolve()
+
+
+def _resolve_optional_path(repo_root: Path, value: Optional[str]) -> Optional[Path]:
+    if not value:
+        return None
+    p = Path(value).expanduser()
+    if not p.is_absolute():
+        p = (repo_root / p).resolve()
+    return p
 
 
 def _get_int_env(name: str, default: int) -> int:
@@ -52,6 +61,13 @@ def _get_str_env(name: str, default: str) -> str:
     return os.environ.get(name) or default
 
 
+def _get_list_env(name: str, default: List[str]) -> List[str]:
+    value = os.environ.get(name)
+    if not value:
+        return default
+    return [item.strip() for item in value.split(",") if item.strip()]
+
+
 @dataclass(frozen=True)
 class Settings:
     repo_root: Path
@@ -66,6 +82,12 @@ class Settings:
     translate_sleep_sec: float
     translate_retries: int
     translate_timeout_sec: int
+    translate_cache_flush_size: int
+    translator_backend: str
+    argos_model_path: Optional[Path]
+    spacy_batch_size: int
+    spacy_n_process: int
+    spacy_disable: Tuple[str, ...]
     log_level: str
 
 
@@ -101,6 +123,14 @@ def load_settings() -> Settings:
     translate_sleep_sec = _get_float_env("EDUTEXT_TRANSLATE_SLEEP_SEC", 0.2)
     translate_retries = _get_int_env("EDUTEXT_TRANSLATE_RETRIES", 2)
     translate_timeout_sec = _get_int_env("EDUTEXT_TRANSLATE_TIMEOUT_SEC", 10)
+    translate_cache_flush_size = _get_int_env("EDUTEXT_TRANSLATE_CACHE_FLUSH_SIZE", 5000)
+    translator_backend = _get_str_env("EDUTEXT_TRANSLATOR_BACKEND", "argos").lower()
+    argos_model_path = _resolve_optional_path(
+        repo_root, os.environ.get("EDUTEXT_ARGOS_MODEL_PATH")
+    )
+    spacy_batch_size = _get_int_env("EDUTEXT_SPACY_BATCH_SIZE", 128)
+    spacy_n_process = _get_int_env("EDUTEXT_SPACY_N_PROCESS", 1)
+    spacy_disable = tuple(_get_list_env("EDUTEXT_SPACY_DISABLE", ["ner", "parser", "textcat"]))
     log_level = _get_str_env("EDUTEXT_LOG_LEVEL", "INFO")
 
     return Settings(
@@ -116,6 +146,12 @@ def load_settings() -> Settings:
         translate_sleep_sec=translate_sleep_sec,
         translate_retries=translate_retries,
         translate_timeout_sec=translate_timeout_sec,
+        translate_cache_flush_size=translate_cache_flush_size,
+        translator_backend=translator_backend,
+        argos_model_path=argos_model_path,
+        spacy_batch_size=spacy_batch_size,
+        spacy_n_process=spacy_n_process,
+        spacy_disable=spacy_disable,
         log_level=log_level,
     )
 

@@ -3,6 +3,8 @@ from __future__ import annotations
 from typing import Dict, Tuple
 from io import StringIO
 import logging
+from functools import lru_cache
+from pathlib import Path
 
 import pandas as pd
 
@@ -12,7 +14,7 @@ logger = logging.getLogger(__name__)
 CEFR_ORDER = {"A1": 1, "A2": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 6}
 
 
-def load_cefr_lexicon(csv_path: str) -> Dict[str, str]:
+def _load_cefr_lexicon_uncached(csv_path: str) -> Dict[str, str]:
     content = open(csv_path, "r", encoding="utf-8").read()
     if ";" in content and "," not in content:
         content = content.replace(";", ",")
@@ -47,14 +49,31 @@ def load_cefr_lexicon(csv_path: str) -> Dict[str, str]:
     return word_levels
 
 
-def compute_cefr_word_table(pages, word_levels: Dict[str, str], nlp) -> Tuple[pd.DataFrame, Dict]:
+@lru_cache(maxsize=1)
+def _load_cefr_lexicon_cached(csv_path: str, mtime: float) -> Dict[str, str]:
+    return _load_cefr_lexicon_uncached(csv_path)
+
+
+def load_cefr_lexicon(csv_path: str) -> Dict[str, str]:
+    path = Path(csv_path).expanduser().resolve()
+    mtime = path.stat().st_mtime
+    return _load_cefr_lexicon_cached(str(path), mtime)
+
+
+def compute_cefr_word_table(
+    pages,
+    word_levels: Dict[str, str],
+    nlp,
+    batch_size: int = 128,
+    n_process: int = 1,
+) -> Tuple[pd.DataFrame, Dict]:
     level_names = ["A1", "A2", "B1", "B2", "C1", "C2"]
     lemma_freq = {}
     lemma_pos_counts = {}
     total_by_level = dict.fromkeys(level_names, 0)
     total_tokens = 0
     texts = [p.text_en or "" for p in pages]
-    for doc in nlp.pipe(texts, batch_size=16):
+    for doc in nlp.pipe(texts, batch_size=batch_size, n_process=n_process):
         for tok in doc:
             if not tok.is_alpha or tok.is_stop:
                 continue

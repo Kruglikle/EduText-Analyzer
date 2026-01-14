@@ -5,6 +5,7 @@ python-dotenv
 spacy
 textstat
 python-Levenshtein
+argostranslate
 deep-translator
 transliterate
 numpy

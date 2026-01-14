@@ -23,12 +23,23 @@ from .exercise_types import (
 logger = logging.getLogger(__name__)
 
 _NLP = None
+_NLP_DISABLED = None
 
 
-def get_nlp():
-    global _NLP
+def get_nlp(settings: Optional[Settings] = None):
+    global _NLP, _NLP_DISABLED
     if _NLP is None:
-        _NLP = spacy.load("en_core_web_sm")
+        disable = ["ner", "parser", "textcat"]
+        if settings is not None:
+            disable = list(settings.spacy_disable)
+        _NLP = spacy.load("en_core_web_sm", disable=disable)
+        _NLP_DISABLED = tuple(disable)
+    elif settings is not None and _NLP_DISABLED != tuple(settings.spacy_disable):
+        logger.warning(
+            "spaCy already loaded with disable=%s; requested disable=%s ignored.",
+            _NLP_DISABLED,
+            settings.spacy_disable,
+        )
     return _NLP
 
 
@@ -50,7 +61,7 @@ def run_analysis(
     run_dir = settings.runs_dir / job_id
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    nlp = get_nlp()
+    nlp = get_nlp(settings)
     pages = preprocess_document(text)
     logger.info("Preprocess complete: %d pages", len(pages))
 
@@ -58,7 +69,13 @@ def run_analysis(
     by_module = compute_metrics_df_by_module(by_page)
 
     word_levels = load_cefr_lexicon(str(settings.cefr_csv_path))
-    cefr_word_table, cefr_summary = compute_cefr_word_table(pages, word_levels, nlp)
+    cefr_word_table, cefr_summary = compute_cefr_word_table(
+        pages,
+        word_levels,
+        nlp,
+        batch_size=settings.spacy_batch_size,
+        n_process=settings.spacy_n_process,
+    )
 
     lev_words = pd.DataFrame(
         columns=["word", "frequency", "translation_ru", "translation_en_translit", "similarity"]

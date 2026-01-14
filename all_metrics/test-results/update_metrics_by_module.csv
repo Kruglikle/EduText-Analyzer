@@ -1,0 +1,2 @@
+module_id,page_num,flesch_reading_ease,flesch_kincaid_grade,words_total,sentences_total,syllables_total,avg_words_per_sentence,tokens,types,ttr,rttr,cttr,msttr_100,is_sparse
+,11.0,77.23617421187666,5.1306683864703455,552.8,53.0,779.0,10.643878821693644,520.8,272.4,0.5371511335261936,11.896107790655506,8.411818488498625,0.7144999999999999,0.0

@@ -1,8 +1,12 @@
 from __future__ import annotations
 
-from typing import Dict, List
+from typing import Dict, List, Tuple
+from collections import OrderedDict
+import hashlib
 import math
+import os
 import re
+import threading
 
 import numpy as np
 import pandas as pd
@@ -56,7 +60,17 @@ def safe_div(a, b):
     return a / b if b else np.nan
 
 
-def compute_textstat_metrics(text: str) -> Dict:
+_TEXTSTAT_CACHE_MAXSIZE = int(os.environ.get("EDUTEXT_TEXTSTAT_CACHE_SIZE", 4096))
+_TEXTSTAT_CACHE: "OrderedDict[Tuple[str, int], Dict]" = OrderedDict()
+_TEXTSTAT_CACHE_LOCK = threading.Lock()
+
+
+def _textstat_cache_key(text: str) -> Tuple[str, int]:
+    digest = hashlib.md5(text.encode("utf-8")).hexdigest()
+    return digest, len(text)
+
+
+def _compute_textstat_metrics_uncached(text: str) -> Dict:
     text = text or ""
     words = textstat.lexicon_count(text)
     sents = textstat.sentence_count(text)
@@ -69,6 +83,27 @@ def compute_textstat_metrics(text: str) -> Dict:
         "syllables_total": syll,
         "avg_words_per_sentence": safe_div(words, sents),
     }
+
+
+def _clear_textstat_cache() -> None:
+    with _TEXTSTAT_CACHE_LOCK:
+        _TEXTSTAT_CACHE.clear()
+
+
+def compute_textstat_metrics(text: str) -> Dict:
+    text = text or ""
+    key = _textstat_cache_key(text)
+    with _TEXTSTAT_CACHE_LOCK:
+        cached = _TEXTSTAT_CACHE.get(key)
+        if cached is not None:
+            _TEXTSTAT_CACHE.move_to_end(key)
+            return cached
+    metrics = _compute_textstat_metrics_uncached(text)
+    with _TEXTSTAT_CACHE_LOCK:
+        _TEXTSTAT_CACHE[key] = metrics
+        if len(_TEXTSTAT_CACHE) > _TEXTSTAT_CACHE_MAXSIZE:
+            _TEXTSTAT_CACHE.popitem(last=False)
+    return metrics
 
 
 def compute_metrics_for_text(text: str, segment_len: int = 100) -> Dict:

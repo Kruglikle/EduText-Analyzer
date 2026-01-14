@@ -1,0 +1,8 @@
+stage,time_sec
+preprocess_document,0.03068239986896515
+metrics_by_page,0.004975100047886372
+metrics_by_module,0.002380999969318509
+cefr_load_lexicon,0.0007748000789433718
+cefr_compute_table,0.36820629984140396
+lev_compute,0.5103947999887168
+exercise_types,0.01454919995740056

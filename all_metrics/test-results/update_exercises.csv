@@ -1,0 +1,13 @@
+page_num,module_id,instruction,lang,chosen,pred_label,pred_conf
+9,,1 Say which of the following verbs are used with the following means of transport.,en,en_lang,linguistic,0.9029234056103037
+9,,2 Choose the correct word.Which means of transport is each sentence about?,en,en_lang,linguistic,0.6792788735909935
+9,,3 Choose the correct word.Then translate the sentences into Russian.,en,en_lang,linguistic,0.9813783463143588
+9,,4 Fill in the appropriate particle. Check in Appendix I. Use the phrasal verbs in a story of your own.,en,en_lang,linguistic,0.5173196953695366
+10,,6 Read the examples. Translate them into your language. Are there similar structures in your language? What are they?,en,en_lang,linguistic,0.6675857951902172
+10,,"8 Fill in: where, whose, who, which, why.",en,en_lang,communicative,0.5526116243500035
+10,,11 THINK! Which means of transport do you prefer? Why? Spend three minutes writing about the topic.,en,en_lang,communicative,0.8848724205025653
+11,,b) Listen to a person discussing the questions above. Which of your points does he mention?,en,en_lang,communicative,0.871818210195892
+12,,"4 Explain the words in bold. Then, in pairs, ask and answer questions based on the text.",en,en_lang,communicative,0.8212473230732462
+12,,"5 Listen as you read the text again. Which of the following qualities best describe Michael? Discuss it in pairs, giving reasons.",en,en_lang,communicative,0.9651629243016665
+13,,3 Choose the correct word. Check in your dictionaries. Then translate the sentences into Russian.,en,en_lang,linguistic,0.9347780804050363
+13,,"4 Complete the sentences with the words: were involved, handle, dropped out, obtain, defect, volunteer.",en,en_lang,linguistic,0.981830680727482
